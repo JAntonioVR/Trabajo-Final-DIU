@@ -18,9 +18,9 @@ Seguidamente nos centramos más en la **experiencia de usuario** y en el **facto
 
 Utilizando lo aprendido, realizamos algunas actividades como son la **malla receptora de información**, el **mapa de empatía** o el "**Scope Canvas**", que nos ayudaron a realizar una primera aproximación de la idea a desarrollar. Realmente, a mí me sirvió para ordenar, esquematizar y clasificar las ideas que se me iban ocurriendo. Teniendo en cuenta estos métodos podría empezar a desarrollarse una aplicación.
 
-<img src="./img/FCG.png" width="60%">
+<img src="./img/FCG.png">
 
-<img src="./img/empathyMap.png" width="60%">
+<img src="./img/empathyMap.png">
 
 
 
@@ -59,11 +59,11 @@ Tras navegar durante un rato por la página, buscando defectos y virtudes, he sa
 
 En primer lugar, respecto al diseño, hay varias carencias. El menú se sitúa a la derecha del logo, en una caja de color amarillo que llama la atención por lo mal colocada que está. Si bien es cierto que es responsiva la página, pero se adapta de una forma muy fea, adjunto ejemplos:
 
-<img src="./img/Header1.png" width="60%">
+<img src="./img/Header1.png">
 
-<img src="./img/Header2.png" width="60%">
+<img src="./img/Header2.png">
 
-<img src="./img/Header3.png" width="60%">
+<img src="./img/Header3.png">
 
 Como se puede observar, en la segunda ni siquiera aparece el menú principal. En móvil, más de lo mismo, se nota que no tienen como tal versión para móvil y le ceden el trabajo a la herramienta que hayan utilizado, que me atrevería a decir que han usado bootstrap incluso. 
 
@@ -75,7 +75,7 @@ Respecto a la navegabilidad, la suerte es que es muy sencilla la página, por lo
 
 Hablando de suscripciones, ¿qué necesidad hay de presentar cuatro opciones iguales como si fueran distintas? Realmente todos los planes ofrecen lo mismo a precios y plazos distintos, pero leí la información cuatro veces pensando que algún plan cambiaría, pero no.
 
-<img src="./img/cuotas.png" width="60%">
+<img src="./img/cuotas.png">
 
 
 
@@ -87,7 +87,7 @@ Pese a todo ello, la web es sencilla, intuitiva y cumple con su función, aún a
 
 Con el objetivo de sintetizar la información anteriormente expuesta, he realizado una malla receptora de información, colocando cada crítica, idea, pregunta o virtud en su lugar, desde el punto de vista de usuarios y de desarrolladores.
 
-<img src="./img/miFCG.png" width="60%">
+<img src="./img/miFCG.png">
 
 ### Wireframe
 
@@ -129,7 +129,7 @@ Una vez tenemos las tipografías, colores, logos, iconos e imágenes, procedemos
 
 Para consultar los bocetos, que han sido realizados con la herramienta [Figma](https://www.figma.com/), pinche en el siguiente [enlace](./archivos/mockup.pdf).
 
-<img src="./img/homeYuzin.png" width="70%">
+<img src="./img/homeYuzin.png" width="100%">
 
 En el desarrollo del mockup se ha usado íntegramente la paleta de colores elegida en el moodboard, con colores suaves para los fondos y los cuadros y más vivo para los botones que queremos que sean llamativos. Además se ha establecido que la opción "Únete a Yuzin" solo aparece cuando el usuario no está registrado, en caso de estarlo aparecerá "Mi Perfil". 
 
