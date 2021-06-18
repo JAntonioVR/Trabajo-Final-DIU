@@ -67,9 +67,9 @@ En primer lugar, respecto al diseño, hay varias carencias. El menú se sitúa a
 
 Como se puede observar, en la segunda ni siquiera aparece el menú principal. En móvil, más de lo mismo, se nota que no tienen como tal versión para móvil y le ceden el trabajo a la herramienta que hayan utilizado, que me atrevería a decir que han usado bootstrap incluso. 
 
-Por otro lado, el número de teléfono en una zona tan visible no es recomendable, y además no es necesario incluirlo cuando existe una página de contacto. Además, aparentemente es un enlace, pero al pulsar no hace nada. El buscador por otro lado es muy intuitivo y funciona bastante bien. Creo que está en un lugar correcto, pues podría ocurrir que una persona llegue a Yuzin queriendo buscar qué ver en las ciudades de Granada o Sevilla en fechas concretas, y eso es justo lo que hace el buscador. Aunque hay un poco de ambigüedad entre el buscador de eventos y el buscador por palabras, quizá se debería relegar el buscador por palabras a un lugar más secundario e incluir alguna frase para captar la atención.
+Por otro lado, el número de teléfono en una zona tan visible no es recomendable, y además no es necesario incluirlo cuando existe una página de contacto. Además, aparentemente es un enlace, pero al pulsar no hace nada. El buscador por otro lado es muy intuitivo y funciona bastante bien. Creo que está en un lugar correcto, pues podría ocurrir que una persona llegue a Yuzin queriendo buscar qué ver en las ciudades de Granada o Sevilla en fechas concretas, y eso es justo lo que hace el buscador. Aunque hay un poco de ambigüedad entre el buscador de eventos y el buscador por palabras, quizá se debería relegar el buscador por palabras a un lugar más secundario o incluir alguna frase para captar la atención.
 
-La web en su nueva versión no ha perdido la esencia de descargar el boletín mensual, añadiendo una suscripción al newsletter. Aunque creo que la web de descarga es poco intuitiva, suerte que no tiene demasiadas opciones, pero de primeras al entrar no sabía donde había que darle para descargar la revista, cuando ese debería ser el gran atractivo de la web. Por otro lado, me extraña que sólo se pueda consultar el boletín actual pero no los anteriores, ya que están creados, se podría tener un repositorio de números anteriores para que quien quiera consultar información de hace años pueda acceder a la página. 
+La web en su nueva versión no ha perdido la esencia de descargar el boletín mensual, añadiendo una suscripción al newsletter. Aunque creo que la web de descarga es poco intuitiva, suerte que no tiene demasiadas opciones, pero de primeras al entrar no sabía donde había que darle para descargar la revista, cuando ese debería ser el gran atractivo de esta pantalla. Por otro lado, me extraña que sólo se pueda consultar el boletín actual pero no los anteriores, ya que están creados, se podría tener un repositorio de números anteriores para que quien quiera consultar información de hace años pueda acceder a la página. 
 
 Respecto a la navegabilidad, la suerte es que es muy sencilla la página, por lo que es difícil perderse, aunque se agradecería un botón de vuelta a home, aunque para eso está el logo, pero igual una persona con poca experiencia en web no se da cuenta. Un aspecto importante que habría que solucionar es que he probado a registrarme/suscribirme y no funciona la página. Al intentar acceder no existe la posibilidad de registrarse, sólo de inciar sesión. Pensé entonces que quizá había que suscribirse previamente, pero fui a la página de suscripción y al seleccionar una de las opciones me llevaba a la misma página, sin ningún feedback ni ningún formulario de registro, desistí.
 
@@ -83,13 +83,53 @@ Hablemos ahora del footer, es tan grande que cabe una imagen entera del logo amp
 
 Pese a todo ello, la web es sencilla, intuitiva y cumple con su función, aún así muchas cosas pueden mejorarse, como veremos.
 
+### Ideación
+
+Con el objetivo de sintetizar la información anteriormente expuesta, he realizado una malla receptora de información, colocando cada crítica, idea, pregunta o virtud en su lugar, desde el punto de vista de usuarios y de desarrolladores.
+
+<img src="./img/miFCG.png" width="60%">
+
+### Wireframe
+
+Ya con las ideas clasificadas y teniendo en cuenta todos los aspectos que he sintetizado, diseñé a papel algunos wireframes, que posteriormente serán implementados. Se puede consultar un documento completo en [este enlace](./archivos/wireframe.pdf), aunque adjunto algunas imágenes a continuación:
 
 
 
+
+
+### Moodboard
+
+Una vez desarrollados algunos wireframe, toca darle color y emoción al proyecto. Con esta premisa, he diseñado un moodboard donde incluyo algunas imágenes de actividades ofertadas en la web, un logo diseñado en [brandmark.io](https://brandmark.io/), una paleta de colores inspirada en los colores del logo (que a su vez están inspirados en algunos eventos de la página) y tres fuentes que pienso pueden encajar en el concepto. Se adjunta un [documento PDF](./archivos/moodboard.pdf) y una [imagen PNG](./img/moodboard.png).
+
+![](./img/moodboard.png)
+
+ 
 
 ## Referencias
 
 * UX Toolkit https://mgea.github.io/UX-DIU-Checklist/index.html
+
 * Feedback Capture Grid https://public-media.interaction-design.org/pdf/Feedback-Capture-Grid.pdf
+
 * Empathy Map https://www.interaction-design.org/literature/article/empathy-map-why-and-how-to-use-it
+
 * Scope Canvas http://scopecanvas.com/
+
+* Logo: https://brandmark.io/
+
+* <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/dmitri13" title="dmitri13">dmitri13</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
