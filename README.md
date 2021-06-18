@@ -67,11 +67,11 @@ En primer lugar, respecto al diseño, hay varias carencias. El menú se sitúa a
 
 Como se puede observar, en la segunda ni siquiera aparece el menú principal. En móvil, más de lo mismo, se nota que no tienen como tal versión para móvil y le ceden el trabajo a la herramienta que hayan utilizado, que me atrevería a decir que han usado bootstrap incluso. 
 
-Por otro lado, el número de teléfono en una zona tan visible no es recomendable, y además no es necesario incluirlo cuando existe una página de contacto. Además, aparentemente es un enlace, pero al pulsar no hace nada. El buscador por otro lado es muy intuitivo y funciona bastante bien. Creo que está en un lugar correcto, pues podría ocurrir que una persona llegue a Yuzin queriendo buscar qué ver en las ciudades de Granada o Sevilla en fechas concretas, y eso es justo lo que hace el buscador. Aunque hay un poco de ambigüedad entre el buscador de eventos y el buscador por palabras, quizá se debería relegar el buscador por palabras a un lugar más secundario o incluir alguna frase para captar la atención.
+Por otro lado, el número de teléfono en una zona tan visible no es recomendable, y además no es necesario incluirlo cuando existe una página de contacto. Además, aparentemente es un enlace, pero al pulsar no hace nada. El buscador por otro lado es muy intuitivo y funciona bastante bien. Creo que está en un lugar correcto, pues podría ocurrir que una persona llegue a Yuzin queriendo buscar qué ver en las ciudades de Granada o Sevilla en fechas concretas, y eso es justo lo que hace el buscador. Aunque hay un poco de ambigüedad entre el buscador de eventos y el buscador por palabras, quizá se debería relegar el buscador por palabras a un lugar más secundario o incluir alguna frase para captar la atención. Cabe destacar también que usan hasta 13 colores distintos que no terminan de combinar bien, creo que son demasiados y muy distintos. Sobre las fuentes, solo en las imágenes arriba adjuntas se aprecian 5 fuentes distintas, pienso que también son demasiadas. En conclusión, se debería reducir la cantidad de colores y fuentes y unificar más.
 
 La web en su nueva versión no ha perdido la esencia de descargar el boletín mensual, añadiendo una suscripción al newsletter. Aunque creo que la web de descarga es poco intuitiva, suerte que no tiene demasiadas opciones, pero de primeras al entrar no sabía donde había que darle para descargar la revista, cuando ese debería ser el gran atractivo de esta pantalla. Por otro lado, me extraña que sólo se pueda consultar el boletín actual pero no los anteriores, ya que están creados, se podría tener un repositorio de números anteriores para que quien quiera consultar información de hace años pueda acceder a la página. 
 
-Respecto a la navegabilidad, la suerte es que es muy sencilla la página, por lo que es difícil perderse, aunque se agradecería un botón de vuelta a home, aunque para eso está el logo, pero igual una persona con poca experiencia en web no se da cuenta. Un aspecto importante que habría que solucionar es que he probado a registrarme/suscribirme y no funciona la página. Al intentar acceder no existe la posibilidad de registrarse, sólo de inciar sesión. Pensé entonces que quizá había que suscribirse previamente, pero fui a la página de suscripción y al seleccionar una de las opciones me llevaba a la misma página, sin ningún feedback ni ningún formulario de registro, desistí.
+Respecto a la navegabilidad, la suerte es que es muy sencilla la página, por lo que es difícil perderse, aunque se agradecería un botón de vuelta a home, aunque para eso está el logo, pero igual una persona con poca experiencia en web no se da cuenta. Un aspecto importante que habría que solucionar es que he probado a registrarme/suscribirme y no funciona la página. Al intentar acceder no existe la posibilidad de registrarse, sólo de inciar sesión. Pensé entonces que quizá había que suscribirse previamente, pero fui a la página de suscripción y al seleccionar una de las opciones me llevaba a la misma página, sin ningún feedback ni ningún formulario de registro, desistí. Tampoco tiene opción de traducirse al inglés, muy necesaria en webs relacionadas de alguna forma con el turismo.
 
 Hablando de suscripciones, ¿qué necesidad hay de presentar cuatro opciones iguales como si fueran distintas? Realmente todos los planes ofrecen lo mismo a precios y plazos distintos, pero leí la información cuatro veces pensando que algún plan cambiaría, pero no.
 
@@ -93,9 +93,29 @@ Con el objetivo de sintetizar la información anteriormente expuesta, he realiza
 
 Ya con las ideas clasificadas y teniendo en cuenta todos los aspectos que he sintetizado, diseñé a papel algunos wireframes, que posteriormente serán implementados. Se puede consultar un documento completo en [este enlace](./archivos/wireframe.pdf), aunque adjunto algunas imágenes a continuación:
 
+<p float="center">
+  <img src="./img/wireframe/plantilla.png" width="30%" />
+  <img src="./img/wireframe/home.png" width="30%" />
+  <img src="./img/wireframe/descarga.png" width="30%" />
+</p>
 
+La primera imagen es una plantilla del encabezado y el pie de página que llevarán todas las pantallas. Así, se podrá acceder directamente al link de descarga del boletín actual desde cualquier parte y además será fácil de encontrar, respetando el estilo actual de la web y recordando el anterior. El footer será reducido considerablemente, conteniendo poca información y poco relevante. Además se incluirán botones de volver a home, enlace directo a la página de ayuda y opción de volver arriba que viajarán solidariamente con nosotros al hacer scroll. La pantalla principal se asemejará a la actual, aunque cambiaré la localización del buscador y pondré una galería de imágenes para añadir atractivo. La página de descarga es también similar a la actual pero con botones de descarga mucho más llamativos e intuitivos.  Además, se incluirá la posibilidad de descargar boletines anteriores. 
 
+<p float="center">
+  <img src="./img/wireframe/catalogo.png" width="45%" />
+  <img src="./img/wireframe/evento.png" width="45%" />
+</p>
 
+En estas dos páginas se expondrán eventos de manera simplificada, incluyendo los datos básicos como son el nombre, fecha, hora, lugar y precio de la actividad. Se incluirá un filtro atendiendo a varios criterios para poder ver sólo los que se adapten a nuestros deseos y necesidades. Al pulsar sobre uno de estos eventos nos lleva a la segunda página, la página principal de eventos, que incluye la misma información que la versión actual pero de forma más visual y mejor organizada. Se incluye además la opción de elegir asistir a este evento, y si se pulsa se quedará esta actividad guardad en nuestro perfil. Existirán pantallas de espacios culturales análogas a las de eventos.
+
+<p float="center">
+  <img src="./img/wireframe/ayuda.png" width="45%" />
+  <img src="./img/wireframe/perfil.png" width="45%" />
+</p>
+
+Se va a incluir una propia página de ayuda, con un índice que nos ayude a encontrar justo lo que necesitamos. Gracias a esta pantalla de ayuda podemos liberar el footer. Además se incluirá para los miembros de Yuzin una página de su perfil, desde la cual podrán gestionar las actividades que han guardado para poder imprimir un sumario, consultar actividades ya realizadas y gestionar su suscripción tanto a Yuzin como a la newsletter.
+
+Además de estas que aquí se presentan, se implementarían páginas de contacto, de subir evento, login, unirse a Yuzin, etc. No han sido incluidas porque los cambios han sido poco relevantes, pero se pueden consultar en el [archivo PDF](./archivos/wireframe.pdf) subido.
 
 ### Moodboard
 
@@ -103,7 +123,19 @@ Una vez desarrollados algunos wireframe, toca darle color y emoción al proyecto
 
 ![](./img/moodboard.png)
 
- 
+ ### Mockup
+
+Una vez tenemos las tipografías, colores, logos, iconos e imágenes, procedemos a diseñar el mockup. En general, he sido fiel a los wireframe, aunque he cambiado algunas cosas. Por ejemplo, la localización del botón de apuntarse a una actividad o la inclusión en home de un botón para cambiar el idioma. Se han implementado la mayoría de pantallas que se incluyen en el wireframe.
+
+Para consultar los bocetos, que han sido realizados con la herramienta [Figma](https://www.figma.com/), pinche en el siguiente [enlace](./archivos/mockup.pdf).
+
+<img src="./img/homeYuzin.png" width="70%">
+
+En el desarrollo del mockup se ha usado íntegramente la paleta de colores elegida en el moodboard, con colores suaves para los fondos y los cuadros y más vivo para los botones que queremos que sean llamativos. Además se ha establecido que la opción "Únete a Yuzin" solo aparece cuando el usuario no está registrado, en caso de estarlo aparecerá "Mi Perfil". 
+
+### Conclusiones
+
+Usando técnicas y recursos aprendidos durante este cuatrimestre en esta asignatura, he podido hacer un análisis intensivo a una web, examinar sus defectos y virtudes, organizarlos en mi cabeza y desarrollar un rediseño. Se le ha dado un cambio de imagen muy notable a [Yuzin.com](yuzin.com), manteniendo las cosas buenas que tenía, como los diseños de algunas páginas, el formulario o la navegación sencilla y se han corregido otros aspectos no tan buenos como el exceso de fuentes y colores o el mal diseño de la pantalla de descarga. En definitiva, estoy satisfecho con lo aprendido y sobre todo con lo puesto en práctica en este caso de estudio.
 
 ## Referencias
 
@@ -117,19 +149,21 @@ Una vez desarrollados algunos wireframe, toca darle color y emoción al proyecto
 
 * Logo: https://brandmark.io/
 
-* <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+* Moodboard: https://milanote.com/
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+* Mockup: https://www.figma.com/
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/dmitri13" title="dmitri13">dmitri13</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-<div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-<div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+* <div>Icons made by:
+	<ul>
+	<li> <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> </li>
+	<li> <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a></li>
+	<li> <a href="https://www.flaticon.com/authors/dmitri13" title="dmitri13">dmitri13</a> </li>
+	<li> <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a></li>
+	<li> <a href="https://www.freepik.com" title="Freepik">Freepik</a> </li>
+	<li> <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> </li>
+	<li> <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> </li>
+	<li> <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> </li>
+	<li> <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> </li>
+	from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+	</ul>
 
