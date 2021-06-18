@@ -49,6 +49,44 @@ Ya para finalizar realizamos actividades sobre usabilidad y **accesibilidad**. E
 
 En conclusión, ahora conozco diversas técnicas orientadas al diseño y muchos factores a tener en cuenta a la hora de tratar este tema. Me ha servido de mucho esta asignatura, así que vamos a poner en práctica lo aprendido. 
 
+## PARTE II: Caso de estudio. Web YUZIN
+
+Seguiremos una estructura similar a las prácticas pero de manera simplificada. Para ello primero haremos un análisis de la versión actual de la página, destacando sus aspectos buenos y malos, para después hacer propuestas de mejora e implementar un nuevo diseño.
+
+### Desk research: Análisis de la versión existente
+
+Tras navegar durante un rato por la página, buscando defectos y virtudes, he sacado algunas conclusiones acerca de la actual versión de la página.
+
+En primer lugar, respecto al diseño, hay varias carencias. El menú se sitúa a la derecha del logo, en una caja de color amarillo que llama la atención por lo mal colocada que está. Si bien es cierto que es responsiva la página, pero se adapta de una forma muy fea, adjunto ejemplos:
+
+<img src="./img/Header1.png" width="60%">
+
+<img src="./img/Header2.png" width="60%">
+
+<img src="./img/Header3.png" width="60%">
+
+Como se puede observar, en la segunda ni siquiera aparece el menú principal. En móvil, más de lo mismo, se nota que no tienen como tal versión para móvil y le ceden el trabajo a la herramienta que hayan utilizado, que me atrevería a decir que han usado bootstrap incluso. 
+
+Por otro lado, el número de teléfono en una zona tan visible no es recomendable, y además no es necesario incluirlo cuando existe una página de contacto. Además, aparentemente es un enlace, pero al pulsar no hace nada. El buscador por otro lado es muy intuitivo y funciona bastante bien. Creo que está en un lugar correcto, pues podría ocurrir que una persona llegue a Yuzin queriendo buscar qué ver en las ciudades de Granada o Sevilla en fechas concretas, y eso es justo lo que hace el buscador. Aunque hay un poco de ambigüedad entre el buscador de eventos y el buscador por palabras, quizá se debería relegar el buscador por palabras a un lugar más secundario e incluir alguna frase para captar la atención.
+
+La web en su nueva versión no ha perdido la esencia de descargar el boletín mensual, añadiendo una suscripción al newsletter. Aunque creo que la web de descarga es poco intuitiva, suerte que no tiene demasiadas opciones, pero de primeras al entrar no sabía donde había que darle para descargar la revista, cuando ese debería ser el gran atractivo de la web. Por otro lado, me extraña que sólo se pueda consultar el boletín actual pero no los anteriores, ya que están creados, se podría tener un repositorio de números anteriores para que quien quiera consultar información de hace años pueda acceder a la página. 
+
+Respecto a la navegabilidad, la suerte es que es muy sencilla la página, por lo que es difícil perderse, aunque se agradecería un botón de vuelta a home, aunque para eso está el logo, pero igual una persona con poca experiencia en web no se da cuenta. Un aspecto importante que habría que solucionar es que he probado a registrarme/suscribirme y no funciona la página. Al intentar acceder no existe la posibilidad de registrarse, sólo de inciar sesión. Pensé entonces que quizá había que suscribirse previamente, pero fui a la página de suscripción y al seleccionar una de las opciones me llevaba a la misma página, sin ningún feedback ni ningún formulario de registro, desistí.
+
+Hablando de suscripciones, ¿qué necesidad hay de presentar cuatro opciones iguales como si fueran distintas? Realmente todos los planes ofrecen lo mismo a precios y plazos distintos, pero leí la información cuatro veces pensando que algún plan cambiaría, pero no.
+
+<img src="./img/cuotas.png" width="60%">
+
+
+
+Hablemos ahora del footer, es tan grande que cabe una imagen entera del logo ampliada. No es necesario que sea tan grande, ya que incluye enlaces a las mismas páginas que el menú, la ayuda que debería tener una página propia y opción de suscripción a la newsletter, que no pienso que sea el lugar correcto para posicionar este aspecto.
+
+Pese a todo ello, la web es sencilla, intuitiva y cumple con su función, aún así muchas cosas pueden mejorarse, como veremos.
+
+
+
+
+
 ## Referencias
 
 * UX Toolkit https://mgea.github.io/UX-DIU-Checklist/index.html
